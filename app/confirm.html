@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/bootstrap.min.css" type="text/css">
+  <title>受験番号確認</title>
+</head>
+<body>
+  <div class="container justify-content-center">
+    <div class="row">
+      <div class="col-sm-10 col-md-8">
+        <p>以下の受験番号を登録します。受験番号に誤りがないかご確認ください。</p>
+        <p>
+          LINEID: XXXXXXX<br>
+          受験番号: XXXXXXX<br>
+        </p>
+        <form action="/submit" method="GET">
+          <button type="submit" class="btn btn-primary">登録</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<script src="./public/js/jquery-3.0.0.min.js"></script>
+<script src="./public/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
